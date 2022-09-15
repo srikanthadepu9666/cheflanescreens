@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import CarouselSecond from "react-elastic-carousel";
 import Header from "../commonComponents/header/header";
 import imag5 from './assets/imag5.svg'
 import './dashboard.css'
@@ -11,6 +12,8 @@ import cheflogo from './assets/cheflogo.svg'
 import foodlogo from './assets/foodlogo.svg'
 import orderlogo from './assets/orderlogo.svg'
 import cubelogo from './assets/cubelogo.svg'
+import veglogo from '../guestPage/assets/veglogo.svg';
+import nonveglogo from '../guestPage/assets/nonveglogo.svg';
 const Dashboard = () => {
 
     const topCarouselData = [
@@ -39,6 +42,14 @@ const Dashboard = () => {
         }
 
     ]
+    const breakPoints = [
+        { width: 1, itemsToShow: 1 },
+        { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+        { width: 850, itemsToShow: 2 },
+        { width: 1150, itemsToShow: 2, itemsToScroll: 2 },
+        { width: 1450, itemsToShow: 2 },
+        { width: 1750, itemsToShow: 2 }
+    ];
     return (
         <>
 
@@ -92,6 +103,40 @@ const Dashboard = () => {
                     </div>
                     <div className="testinominals_container">
                         <div className="try_chef_text_container"><span className="try_chef_lane_text">Testimonials</span></div>
+                        <div className="coursol_container_div">
+                            <CarouselSecond breakPoints={breakPoints}>
+
+
+                                {[1, 2, 3, 4, 5, 6, 7, 8].map((courosal) => (
+                                    <div className="container">
+                                        <div>
+                                            <span className="coursol_text">
+                                                The Chef Lane is the best for any chef. Lorem ipsum dummy text
+                                                lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy
+                                                text
+                                            </span>
+                                        </div>
+                                        <div className="circle_container">
+                                            <div className="coursol_circle"></div>
+                                            <div>
+                                                <span className="text_bold">Chef Larry Alexander </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </CarouselSecond>
+                        </div>
+                        <div className="food_type_container">
+                            <div>
+                                <img alt="img" src={veglogo}></img>
+                                <span className="food_type_text">VEG</span>
+                            </div>
+                            <div>
+                                <img alt="img" src={nonveglogo}></img>
+                                <span className="food_type_text">NON-VEG</span>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <Footer />

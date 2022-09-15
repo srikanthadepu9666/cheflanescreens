@@ -121,7 +121,7 @@ input::placeholder {
 .getstarted_container {
     position: relative;
     width: 100%;
-    height: 1527px;
+    height: 1360px;
 
     background: #FFFCF4;
 }
@@ -258,4 +258,137 @@ input::placeholder {
     flex-direction: column;
     justify-content: center;
 
+}
+
+.container {
+    width: 376px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFCF4;
+    border: 1px solid #08316D;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.ixXTzo>button {
+    background-color: #d8af49;
+}
+
+
+
+.grUxXV {
+    width: 80%;
+}
+
+.coursol_circle {
+    background-color: #d8af49;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.circle_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.eAyARa:enabled:hover {
+    color: #ffff;
+    background-color: #D8AF49;
+}
+
+.eAyARa:disabled {
+    color: #ffff;
+    background-color: #eee5ce;
+}
+
+.eWjCzc {
+    color: #ffff !important;
+    background-color: #D8AF49 !important;
+}
+
+.eWjCzc:hover {
+
+    box-shadow: 0 0 2px 0px rgb(212, 221, 186);
+
+    color: #ffff !important;
+    background-color: #D8AF49 !important;
+}
+
+.eWjCzc:disabled {
+    color: #ffff;
+    background-color: #eee5ce;
+}
+
+.eAyARa:enabled {
+    color: #fff;
+    background-color: #1d1911;
+    /* box-shadow: 0 0 2px 0 #333; */
+}
+
+.krmNah {
+    background-color: #D8AF49 !important;
+    /* border: 1px solid #D8AF49 !important; */
+    box-shadow: 0 0 1px 3px rgb(203 202 172) !important;
+}
+
+.krmNah:hover,
+.krmNah:focus {
+    cursor: pointer;
+    background-color: #D8AF49 !important;
+    box-shadow: 0 0 1px 3px rgb(203 202 172) !important;
+}
+
+.coursol_container_div {
+    width: 80%;
+}
+
+.coursol_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+    /* text-align: center; */
+
+    color: #000000;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+}
+
+.text_bold {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: center;
+
+    color: #08316D;
+}
+
+.food_type_container {
+    margin-left: 1550px;
+    margin-top: 40px;
+}
+
+.eWjCzc:hover:enabled,
+.eWjCzc:focus:enabled {
+    color: #fff !important;
+    background-color: #D8AF49 !important;
+    box-shadow: 0 0 2px 0 rgb(185, 183, 183) !important;
+}
+
+.jhmYzC {
+    background-color: none !important;
 }
