@@ -1,0 +1,261 @@
+.carousel-wrapper {
+    position: absolute;
+    top: 65px;
+
+}
+
+.courosaol_text_container {
+    position: absolute;
+    top: 99px;
+    left: 176px;
+}
+
+.heading_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+
+.heading_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.title_text {
+    width: 530px;
+    height: 84px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: start;
+    margin-bottom: 18px;
+    /* or 117% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.subtitle_text {
+    /* width: 274px; */
+    height: 20px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: start;
+    /* identical to box height, or 111% */
+
+    margin-bottom: 18px;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.searchlogo_size {
+    height: 19px;
+    width: 19px;
+}
+
+.locationlogo {
+    height: 20px;
+    width: 16px;
+}
+
+.searchbar_container {
+    display: flex;
+    height: 56px;
+    width: 588px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.findbtn {
+    display: flex;
+}
+
+.dasboard_input {
+    border: none;
+    width: 336px;
+}
+
+.search_logo {
+    padding: 19px 17px 21px 29px;
+}
+
+input::placeholder {
+    width: 100%;
+}
+
+.find_btn_txt {
+    width: 127px;
+    height: 40px;
+    background: #08316D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.locationlogo {
+    margin: 10px;
+}
+
+.getstarted_container {
+    position: relative;
+    width: 100%;
+    height: 1527px;
+
+    background: #FFFCF4;
+}
+
+.getstarted_text {
+    width: 311px;
+    height: 42px;
+    left: 575px;
+    top: 706px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height, or 117% */
+
+
+    color: #08316D;
+}
+
+.icons_section {
+    /* padding: 74px 175px 64px 177px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.chef_text_container {
+    height: 90px;
+    width: 283px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+}
+
+.chef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logotext_container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.heading_chef_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    /* or 112% */
+
+    text-align: center;
+
+    /* Text / Primary */
+
+    color: #25282B;
+}
+
+.sub_title_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+    text-align: center;
+
+    /* Text / Primary */
+
+    color: #25282B;
+}
+
+.try_chef_lane_container {
+    display: flex;
+    margin-top: 84px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.try_chef_lane_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height, or 117% */
+
+
+    color: #08316D;
+    margin-bottom: 90px;
+}
+
+.try_chef_text_container {
+    margin-bottom: 54px;
+}
+
+.cube_text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 52px;
+    /* or 289% */
+
+
+    /* Text / Primary */
+
+    color: #25282B;
+    margin-left: 19px;
+}
+
+.cube_container_text {
+    display: flex;
+    /* justify-items: center; */
+    padding: 10px;
+}
+
+.testinominals_container {
+    display: flex;
+    margin-top: 84px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}

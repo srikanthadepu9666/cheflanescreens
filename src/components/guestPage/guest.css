@@ -1,0 +1,322 @@
+.header_container {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    /* top: -2px; */
+
+    background: #08316D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+
+    margin: 11px 0px 13px 62px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 51px;
+
+}
+
+
+
+.chef_btn {
+
+
+    width: 140px;
+    height: 40px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    color: #08316D;
+    left: 1055px;
+    top: 16px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    margin: 8px;
+
+}
+
+.chef_btn:hover {
+    cursor: pointer;
+}
+
+.location-logo {
+    margin: 26px 0px 26px 0px;
+    display: flex;
+
+}
+
+.location_text {
+    margin-left: 16px;
+    margin-top: 10px;
+    width: 73px;
+    height: 20px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 20px;
+
+
+    color: #FFFFFF;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    /* color: red; */
+    opacity: 1;
+    /* Firefox */
+    width: 61px;
+    height: 20px;
+
+    /* Body/2 */
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    padding-left: 30px;
+    /* Text / default textfield */
+
+    color: #CACCCF;
+}
+
+.searchlogo {
+    position: absolute;
+    margin: 10px;
+}
+
+.searchbar {
+    margin-top: 14px;
+}
+
+.gustUsers_container {
+    background: #FFFCF4;
+    position: absolute;
+    margin-top: 72px;
+    min-height: 876px;
+    width: 100%;
+
+}
+
+.gustuserdetails_container {
+    width: 1600px;
+
+}
+
+.inner_container {
+    display: flex;
+}
+
+.paddyimg_container {
+    margin-top: 50px;
+}
+
+/* custon dropdown */
+
+.rail-select {
+    position: absolute;
+    width: 150px;
+    margin-top: 24px;
+    margin-left: 110px;
+}
+
+.rail-select select {
+    font-size: 16px;
+    color: #25282B;
+    /* height: 42px; */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #CACCCF;
+    border-radius: 4px;
+    /* width: 161px; */
+    background-color: #FFFFFF;
+    width: 128px;
+    height: 40px;
+    padding: 10px;
+}
+
+.rail-select select:focus {
+    outline: none;
+    box-shadow: none;
+    border: solid 1px grey;
+}
+
+.rail-select .select-side {
+    position: absolute;
+    top: 9px;
+    border: 1px solid white;
+    left: 100px;
+    pointer-events: none;
+}
+
+.rail-select .select-side:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 1px;
+    /* or 100px */
+}
+
+.rail-select .select-side i {
+    left: 30%;
+    top: 12px;
+}
+
+.rail-select .select-side i.blue {
+    color: #4e7af0;
+}
+
+.usercards {
+    margin-top: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
+
+    width: 486px;
+    height: 124px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.usercard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
+    width: 488px;
+    height: 94px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 10px;
+    z-index: 1;
+
+}
+
+.user_name_container {
+    display: flex;
+    justify-content: space-between;
+    width: 113%;
+    margin-bottom: 8px;
+}
+
+.user_name_text {
+    /* width: 114px; */
+    height: 18px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    /* Text / Primary */
+
+    color: #25282B;
+}
+
+.user_type_text {
+
+    color: #52575C;
+    margin-bottom: 12px;
+
+}
+
+.user_address_text {
+    width: 326px;
+    height: 36px;
+
+    /* Caption */
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    /* Grayscale / G2 */
+
+    color: #7C7C7C;
+}
+
+.user_rating_text {
+    width: 26px;
+    height: 18px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #D8AF49;
+}
+
+.bread_img {
+    margin-top: 754px;
+    margin-left: -180px;
+
+}
+
+.food_type_container {
+    display: flex;
+    /* width: 200px; */
+    margin-left: -150px;
+    margin-bottom: 10px;
+}
+
+.food_type_text {
+    /* position: absolute; */
+    width: 92px;
+    height: 13px;
+    /* left: 1300px;
+    top: 1042px; */
+
+    /* Body/1 */
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 325;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+
+    color: #000000;
+    padding: 10px;
+    
+}

@@ -1,0 +1,15 @@
+.usercard-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
+
+    width: 486px;
+    height: 124px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
